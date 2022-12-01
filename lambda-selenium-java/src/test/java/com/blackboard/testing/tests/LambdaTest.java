@@ -18,6 +18,7 @@ public class LambdaTest extends LambdaBaseTest {
         screenshot("google-home-page");
         assertThat(title(), containsString("Google"));
         System.out.println("test");
+        System.out.println("test");
     }
 
     @Test
